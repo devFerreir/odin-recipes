@@ -1,0 +1,13 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #8c613a;
+  color: white;
+}
+a {
+  margin: 10px;
+}
+.photo-pizza {
+  width: 500px;
+}
