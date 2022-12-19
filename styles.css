@@ -2,12 +2,62 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: #8c613a;
-  color: white;
+  background-image: url(images/fundo.jpg);
+  font-family: "Martian Mono", monospace;
+}
+.logo {
+  width: 200px;
+  margin-left: 10px;
+}
+#caixa {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid black;
 }
 a {
   margin: 10px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 50px;
+}
+ul li {
+  list-style-position: inside;
+}
+h1 {
+  margin-top: 60px;
+  font-size: 40px;
 }
 .photo-pizza {
   width: 500px;
+}
+#caixa-pizza {
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  margin-top: 40px;
+  text-align: center;
+  border: 1px solid black;
+}
+#caixa-cake {
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  margin-top: 40px;
+  text-align: center;
+  border: 1px solid black;
+}
+#caixa-lasagna {
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  margin-top: 40px;
+  text-align: center;
+  border: 1px solid black;
 }
